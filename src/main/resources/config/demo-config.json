@@ -1,0 +1,39 @@
+{
+  "building": {
+    "floorsCount": 10,
+    "floorHeight": 3.0
+  },
+  "residents": {
+    "defaultPerFloor": 5,
+    "morning": {
+      "earliest": 28800,
+      "latest": 30000,
+      "targetFloor": 0
+    },
+    "evening": {
+      "earliest": 64800,
+      "latest": 66000
+    }
+  },
+  "elevators": [
+    {
+      "id": 1,
+      "capacity": 8,
+      "maxSpeedFloorsPerSecond": 1.0,
+      "accelerationFloorsPerSecond2": 0.5,
+      "doorOpenTimeSeconds": 2
+    },
+    {
+      "id": 2,
+      "capacity": 8,
+      "maxSpeedFloorsPerSecond": 1.0,
+      "accelerationFloorsPerSecond2": 0.5,
+      "doorOpenTimeSeconds": 2
+    }
+  ],
+  "simulation": {
+    "dayDurationSeconds": 86400,
+    "tickSeconds": 1,
+    "randomSeed": 42
+  }
+}
