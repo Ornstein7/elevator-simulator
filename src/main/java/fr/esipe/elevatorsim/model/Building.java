@@ -66,6 +66,17 @@ public class Building {
         return Collections.unmodifiableList(elevators);
     }
 
+    public boolean removeElevatorById(int id) {
+        return elevators.removeIf(e -> e.getId() == id);
+    }
+
+    public Elevator findElevatorById(int id) {
+        for (Elevator e : elevators) {
+            if (e.getId() == id) return e;
+        }
+        return null;
+    }
+
 }
 
 

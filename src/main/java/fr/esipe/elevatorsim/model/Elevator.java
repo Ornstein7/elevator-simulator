@@ -109,6 +109,10 @@ public class Elevator {
         }
     }
 
+    public double getMaxSpeedFloorsPerSecond() { return maxSpeedFloorsPerSecond; }
+    public double getAccelerationFloorsPerSecond2() { return accelerationFloorsPerSecond2; }
+    public int getDoorOpenTimeSeconds() { return doorOpenTimeSeconds; }
+
     /**
      * Ajoute un arrêt à la file de destinations.
      */
@@ -215,4 +219,6 @@ public class Elevator {
             direction = Direction.IDLE;
         }
     }
+
+
 }
