@@ -239,7 +239,7 @@ public class Simulation {
     private void printSummary() {
         SimulationStats s = getStats();
 
-        System.out.println("=== Résumé des requêtes d'ascenseur (phase 7) ===");
+        System.out.println("=== Résumé des requêtes d'ascenseur ===");
         System.out.printf("Nombre total de requêtes        : %d%n", s.totalRequests);
         System.out.printf("Requêtes complétées             : %d%n", s.completedRequests);
         System.out.printf("Temps d'attente moyen (s)       : %.2f%n", s.averageWait);
